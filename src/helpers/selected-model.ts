@@ -26,11 +26,11 @@ import { google } from '@ai-sdk/google';
 import { ollama } from 'ollama-ai-provider-v2';
 
 // Groq:
-export const model = groq('openai/gpt-oss-20b');
+// export const model = groq('openai/gpt-oss-20b');
 // export const model = groq('openai/gpt-oss-120b');
 
 // Anthropic:
-// export const model = anthropic('claude-haiku-4-5');
+export const model = anthropic('claude-sonnet-5');
 
 // OpenAI:
 // export const model = openai('gpt-5-mini');
